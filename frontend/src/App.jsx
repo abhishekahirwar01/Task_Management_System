@@ -22,8 +22,6 @@ function App() {
               <Route path="login" element={<Login />} />
               <Route path="register" element={<Register />} />
               <Route path="about" element={<About />} />{" "}
-              {/* ✅ Add About route */}
-              {/* Protected Routes */}
               <Route element={<PrivateRoute />}>
                 <Route path="dashboard" element={<Dashboard />} />
                 <Route path="tasks/create" element={<TaskForm />} />

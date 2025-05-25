@@ -20,7 +20,7 @@ router
   .route("/")
   .get(protect, getTasks)
   .post(protect, (req, res, next) => {
-    console.log("POST /api/tasks received", req.body); // Debug log
+    // console.log("POST /api/tasks received", req.body); // Debug log
     createTask(req, res, next);
   });
 

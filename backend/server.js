@@ -5,8 +5,7 @@ import { errorHandler } from "./middleware/errorHandler.js";
 import taskRoutes from "./routes/taskRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
 import cors from "cors";
-import morgan from "morgan"; // Added for request logging
-
+import morgan from "morgan"; 
 dotenv.config();
 
 // Database connection

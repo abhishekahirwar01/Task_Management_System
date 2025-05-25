@@ -14,7 +14,7 @@ export default function Home() {
     setIsMenuOpen(!isMenuOpen);
   };
   if (isLoading) {
-    return <div>Loading...</div>; // or skeleton UI
+    return <div>Loading...</div>; 
   }
 
   return (
